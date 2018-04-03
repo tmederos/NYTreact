@@ -15,5 +15,5 @@ Technologies used
 * Node.js - https://nodejs.org/en/
 * Mongoose - http://mongoosejs.com/
 * express NPM Package - https://www.npmjs.com/package/express
-* Handlebars - http://handlebarsjs.com/
+* React - https://reactjs.org/
 
