@@ -43,31 +43,27 @@ class Search extends Component {
 
   // When the form is submitted, use the API.getArticles method get reload the
   // articles from the database
-handleFormSubmit = event => {
-  event.preventDefault();
-  var query = {
-    topic: this.state.topic,
-    startYear: this.state.startyear,
-    endYear: this.state.endyear
+  handleFormSubmit = event => {
+    event.preventDefault();
+    var query = {
+      topic: this.state.topic,
+      startYear: this.state.startyear,
+      endYear: this.state.endyear
+    };
+  
+    API.getArticles(query)
+        .then(res => 
+        // console.log( "Res - ", res )
+        this.setState(
+        { articles: res.data.response.docs, 
+          topic: "", 
+          startyear: "", 
+          endyear: "", 
+          searchClicked: true })
+        )
+      .catch(err => console.log(err));
+      console.log("Articles is - ", this.state.articles);
   };
-
- var getNYTArticles = () => {
-    console.log("geting articles")
-    API.getArticles({
-      topic: "Trump",
-      startYear: "2017",
-      endYear: "2018"
-    }).then(res => {
-      console.log(res.data)
-      this.setState({
-        topic: "",
-        endYear: "",
-        startYear: "",
-        articles: res.data.response.docs
-      })
-    })
-  }
-};
 
 render() {
   return <Container>

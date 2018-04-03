@@ -16,7 +16,7 @@ class Saved extends Component {
   }
 
   loadArticles = () => {
-    API.getArticles()
+    API.getSaved()
       .then(res =>
         this.setState({ articles: res.data})
       )
