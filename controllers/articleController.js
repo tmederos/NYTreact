@@ -39,7 +39,11 @@ function deleteArticle(req, res) {
 
 // Insert New Article
 function insertArticle(req, res) {
-  Article.create({ title: body.title, link: body.link, saved: true })
+
+  console.log("Title: " +  req.body.title);
+  console.log("Date: " + req.body.date);
+  console.log("Url: " + req.body.url);
+  Article.create({ title: req.body.title, date: req.body.date, url: req.body.url, saved: true })
   .then(function(doc) {
     res.json(doc);
   }).catch(function(err) {

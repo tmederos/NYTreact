@@ -17,7 +17,7 @@ export default {
   // Saves a Article to the database
   saveArticle: function(article) {
     console.log("Article Saved - ", article);
-    return axios.post("/api/articles", article);
+    return axios.post("/api/saved", article);
   },
   // Deletes an Article from the database
   deleteArticle: function(id) {

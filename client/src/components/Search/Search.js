@@ -45,13 +45,8 @@ class Search extends Component {
   // articles from the database
   handleFormSubmit = event => {
     event.preventDefault();
-    var query = {
-      topic: this.state.topic,
-      startYear: this.state.startyear,
-      endYear: this.state.endyear
-    };
   
-    API.getArticles(query)
+    API.getArticles(this.state.topic, this.state.startyear, this.state.endyear )
         .then(res => 
         // console.log( "Res - ", res )
         this.setState(
