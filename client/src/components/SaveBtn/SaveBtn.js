@@ -5,7 +5,7 @@ import "./SaveBtn.css";
 // That way we don't have to define them all individually
 const SaveBtn = props => (
   <button className="save-btn" {...props}>
-    <i className="fa fa-floppy-o" aria-hidden="true"></i>
+  <i className="fa fa-floppy-o" aria-hidden="true"></i>
 
   </button>
 );

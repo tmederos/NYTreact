@@ -21,6 +21,7 @@ export default {
   },
   // Deletes an Article from the database
   deleteArticle: function(id) {
+    console.log( "The id " + id );
     return axios.delete("/api/saved/" + id);
   }
 
