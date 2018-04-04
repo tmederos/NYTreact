@@ -3,6 +3,7 @@ var express = require("express");
 var mongoose = require("mongoose");
 var bodyParser = require("body-parser");
 var routes = require("./routes/apiRoutes");
+var path = require("path");
 
 // Set up a default port, configure mongoose, configure our middleware
 const PORT = process.env.PORT || 3001;
