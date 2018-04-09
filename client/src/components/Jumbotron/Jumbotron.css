@@ -1,0 +1,8 @@
+.jumbotron {
+	margin-right: -15px;
+	margin-left: -15px;
+  min-height: 100px;
+	background-color: lightblue;
+	width: 100%;
+	border-bottom: 8px solid #007bff;
+}

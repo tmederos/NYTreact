@@ -1,0 +1,28 @@
+body {
+	font-family: 'Noto Serif', Helvetica, serif;
+	font-size: 16px;
+	color: black;
+	background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255,255, 0.7)), url('../img/NYT_BG.png');
+	background-position: center;
+	background-size: cover;
+	height: 100%;
+}
+
+.jumbotron {
+	margin-right: -15px;
+	margin-left: -15px;
+  min-height: 100px;
+	background-color: lightblue;
+	width: 100%;
+	border-bottom: 8px solid #007bff;
+}
+.form-control{
+	background-color:  white;
+	color: black;
+	text-indent: 5px;
+}
+
+.btn {
+  background-color: #3949ab;
+}
+
