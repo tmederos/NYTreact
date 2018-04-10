@@ -8,20 +8,6 @@ body {
 	height: 100%;
 }
 
-.jumbotron {
-	margin-right: -15px;
-	margin-left: -15px;
-  min-height: 100px;
-	background-color: lightblue;
-	width: 100%;
-	border-bottom: 8px solid #007bff;
-}
-.form-control{
-	background-color:  white;
-	color: black;
-	text-indent: 5px;
-}
-
 .btn {
   background-color: #3949ab;
 }

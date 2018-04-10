@@ -1,3 +1,5 @@
 .form-control{
-  background-color:  whitesmoke;
+  background-color:  white;
+  text-indent: 5px;
+  border-bottom: 1px solid darkgray;
 }
