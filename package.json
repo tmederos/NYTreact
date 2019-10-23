@@ -27,7 +27,7 @@
     "extend": "^3.0.2",
     "lodash": "^4.17.11",
     "merge": "^1.2.1",
-    "mongoose": "^5.0.12",
+    "mongoose": "^5.7.5",
     "mpath": "^0.6.0",
     "react-dev-utils": "^9.0.1",
     "react-dom": "^16.8.6",
