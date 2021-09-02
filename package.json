@@ -28,7 +28,7 @@
     "lodash": "^4.17.11",
     "merge": "^1.2.1",
     "mongoose": "^5.0.12",
-    "mpath": "^0.6.0",
+    "mpath": "^0.8.4",
     "react-dev-utils": "^9.0.1",
     "react-dom": "^16.8.6",
     "webpack-dev-server": "^3.4.1"
